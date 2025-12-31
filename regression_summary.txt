@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Life_Expectancy   R-squared:                       0.794
+Model:                            OLS   Adj. R-squared:                  0.790
+Method:                 Least Squares   F-statistic:                     204.1
+Date:                Wed, 31 Dec 2025   Prob (F-statistic):           1.71e-71
+Time:                        17:24:32   Log-Likelihood:                -589.35
+No. Observations:                 217   AIC:                             1189.
+Df Residuals:                     212   BIC:                             1206.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 36.0465      1.762     20.461      0.000      32.574      39.519
+Log_GDP                2.6996      0.318      8.480      0.000       2.072       3.327
+School_Enrollment      0.0501      0.018      2.738      0.007       0.014       0.086
+Electricity_Access     0.0945      0.017      5.538      0.000       0.061       0.128
+Urban_Population      -0.0018      0.015     -0.122      0.903      -0.030       0.027
+==============================================================================
+Omnibus:                       30.048   Durbin-Watson:                   2.113
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.334
+Skew:                          -0.876   Prob(JB):                     1.74e-09
+Kurtosis:                       4.180   Cond. No.                         989.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
