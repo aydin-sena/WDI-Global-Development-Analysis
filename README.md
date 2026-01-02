@@ -74,7 +74,7 @@ Projeyi yerel ortamınızda çalıştırmak için:
 
 1.  Repoyu klonlayın:
     ```bash
-    git clone [https://github.com/KULLANICI_ADINIZ/WDI-Global-Analysis.git](https://github.com/KULLANICI_ADINIZ/WDI-Global-Analysis.git)
+    git clone [https://github.com/aydin-sena/WDI-Global-Analysis.git](https://github.com/aydin-sena/WDI-Global-Analysis.git)
     ```
 2.  Gerekli kütüphaneleri yükleyin:
     ```bash
